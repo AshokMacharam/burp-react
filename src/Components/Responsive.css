@@ -1,0 +1,174 @@
+/* .parent-div {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+} */
+
+/* .child-div {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  border: 5px solid black;
+} */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+.parent-div-main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /* overflow-y: hidden; */
+}
+
+/* nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4vw;
+  border-bottom: 2px solid #dadada;
+} */
+
+h2 {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.nav-itemsList {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+h5 {
+  font-size: 1vw;
+}
+.ri-menu-line {
+  font-size: 6vw;
+  font-weight: 800;
+  display: none;
+}
+
+.content {
+  height: calc(100% - 100px);
+  width: 100%;
+  display: flex;
+  /* overflow-y: auto; */
+  /* flex-wrap: wrap; */
+  position: relative;
+  /* overflow-y: hidden; */
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  padding: 5vw 8vw;
+  margin-top: 5.5vw;
+}
+
+.left h1 {
+  font-size: 5vw;
+  line-height: 4.4vw;
+}
+
+.left h1 span {
+  color: #0dcaf0;
+}
+
+.left p {
+  font-size: 1.2vw;
+  font-weight: 600;
+  width: 80%;
+  margin-top: 1.3vw;
+  margin-bottom: 3vw;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  /* padding: 100px 8vw; */
+}
+
+.button {
+  font-size: 1.5vw;
+  padding: 1vw 2vw;
+  color: #fafafa;
+  background-color: #0dcaf0;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.right img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 0 6vw;
+    height: 60px;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  .nav-itemsList h5 {
+    font-size: 4vw;
+    display: none;
+  }
+  .ri-menu-line {
+    font-size: 6vw;
+    display: block;
+  }
+
+  .left {
+    height: 40%;
+    width: 100%;
+    padding: 5vw 8vw;
+  }
+  .content {
+    flex-direction: column;
+  }
+
+  .left h1 {
+    font-size: 8vw;
+    line-height: 11vw;
+  }
+  .left p {
+    font-size: 3vw;
+    /* font-weight: 600; */
+    width: 90%;
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+  }
+  .right {
+    height: 60%;
+    width: 100%;
+    padding: 0 0;
+  }
+  .coder-image {
+    margin: 0;
+    height: 90%;
+    width: 90%;
+  }
+
+  .content button {
+    padding: 3vw 5vw;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 3vw;
+    margin-left: 35%;
+  }
+}

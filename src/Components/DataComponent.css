@@ -1,0 +1,11 @@
+.dataComponent-container {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  margin: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}

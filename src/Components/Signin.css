@@ -1,0 +1,12 @@
+.logo-image {
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  margin-left: 125px;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}

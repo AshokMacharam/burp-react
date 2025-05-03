@@ -1,0 +1,139 @@
+/* .Navbar-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.nav-item {
+  padding-left: 40px;
+}
+
+.nav-item-disabled {
+  pointer-events: none;
+  color: gray;
+  cursor: not-allowed;
+} */
+
+/* Optional: style the buttons to remove default button styling */
+/* .nav-button {
+  border-radius: 5px;
+  background: none;
+  border: none;
+}
+
+.nav-link {
+  text-decoration: none;
+} */
+
+/* * {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  gap: 2rem;
+  padding: 0 1rem;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 25px;
+}
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.title-container {
+  font-size: 1.5rem;
+  margin-left: 25px;
+}
+
+.nav li.active {
+  background-color: white;
+  color: black;
+}
+
+.nav li:hover {
+  background-color: aliceblue;
+  color: black;
+  border-radius: 20px;
+  padding: 5px;
+} */
+
+/* working css */
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1183fb;
+  gap: 2rem;
+  padding: 0 1rem;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+  padding: 10px 8px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.title-container {
+  font-size: 1.5rem;
+  margin-left: 25px;
+}
+
+.nav li.active {
+  background-color: aliceblue;
+  color: black;
+}
+
+.nav li:hover {
+  background-color: aliceblue;
+  color: black;
+  border-radius: 20px;
+  transform: scale(1.1);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.nav a:hover {
+  color: #0077cc;
+  transform: scale(2);
+} */
